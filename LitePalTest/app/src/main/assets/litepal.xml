@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Data" />  <!--数据库名-->
+    <version value="3" />  <!--数据库版本号-->
+    <!--list用于指定映射模型-->
+    <list>
+        <mapping class="com.example.litepaltest.Book"></mapping>
+        <mapping class="com.example.litepaltest.Category"></mapping>
+    </list>
+</litepal>
